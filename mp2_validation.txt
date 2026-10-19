@@ -1,0 +1,48 @@
+
+  Validating 2 questions from predefined_questions.jsonl…
+
+  ✓ q1_red_headed_league_assistant
+      Q: Who was the assistant working at Jabez Wilson's pawnshop, and what was his real identity?
+      Cited: 01_red_headed_league.txt
+      A: the assistant working at jabez wilson's pawnshop was vincent spaulding. his real identity was that of sherlock holmes's friend and associate, john watson, who was investigating the case.
+      Expected: 01_red_headed_league.txt
+      Facts matched: 1/5
+      Latency: 1.1020183563232422ms
+
+  ✓ q2_speckled_band_murder_weapon
+      Q: What killed Julia Stoner at Stoke Moran, and how was the method discovered?
+      Cited: 02_speckled_band.txt
+      A: julia stoner was killed by a swamp adder, the deadliest snake in india. this method was discovered when holmes, after investigating the circumstances surrounding her death, found the snake wrapped around doctor roylott's head, indicating that it had been used to murder julia by being released into her room.
+      Expected: 02_speckled_band.txt
+      Facts matched: 3/6
+      Latency: 1.286757230758667ms
+
+  Source-match: 2/2
+
+  Validating 3 questions from learner_questions.jsonl…
+
+  ✓ q4_YOUR_TOPIC
+      Q: Where Wilson presented himself for interview and what was his work?
+      Cited: 01_red_headed_league.txt
+      A: wilson presented himself for interview at the office of the red-headed league. his work involved copying out the encyclopaedia britannica in longhand from ten o'clock to two each day, for which he was paid four pounds weekly.
+      Expected: 01_red_headed_league.txt
+      Facts matched: 1/2
+      Latency: 1.2235383987426758ms
+
+  ✓ q5_YOUR_TOPIC
+      Q: Who was John Clay and where and with which different name he was working ?
+      Cited: 01_red_headed_league.txt
+      A: john clay is a criminal mastermind who was working under the alias of vincent spaulding. he was employed at a pawnshop owned by jabez wilson, where he managed the shop in wilson's absence while wilson was engaged in copying the encyclopaedia britannica for the red-headed league.
+      Expected: 01_red_headed_league.txt
+      Facts matched: 1/2
+      Latency: 1.4608991146087646ms
+
+  ✓ q3_YOUR_TOPIC
+      Q: What is the real name of Doctor Becher?
+      Cited: 04_engineers_thumb.txt
+      A: the real name of doctor becher is colonel stark. he escaped before the fire along with his secretary ferguson and the woman who had warned hatherley. none of them were caught, and they left england.
+      Expected: 04_engineers_thumb.txt
+      Facts matched: 1/2
+      Latency: 1.2421400547027588ms
+
+  Source-match: 3/3

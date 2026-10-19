@@ -280,12 +280,6 @@ def chunk_document(doc: dict[str, Any]) -> list[dict[str, Any]]:
     """
     # TODO: your code here
     chunks : list[dict[str, Any]] = []
-    # for item in doc: 
-        # chunks_item=chunk_text(item)
-        # chunks.append(chunk_text(doc["text"]))
-        #print(chunks_item)
-        # break
-        # print(item["title"])
     chunks=chunk_text(doc)
     return chunks
     # raise NotImplementedError("Implement chunk_document")

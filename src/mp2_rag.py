@@ -38,6 +38,7 @@ from qdrant_client.models import Distance, PointStruct, VectorParams
 from models import Settings
 import numpy as np
 
+
 # ─── Configuration ──────────────────────────────────────────────────────
 
 CORPUS_DIR        = Path(__file__).parent.parent / "data/corpus"

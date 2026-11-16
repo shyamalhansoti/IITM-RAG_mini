@@ -1,0 +1,33 @@
+question=> Who was the assistant working at Jabez Wilson's pawnshop, and what was his real identity?
+response=> The assistant working at Jabez Wilson's pawnshop was Spaulding, who was actually John Clay in disguise [2][4].
+question=> What killed Julia Stoner at Stoke Moran, and how was the method delivered?
+response=> Julia Stoner was killed by a snake that Doctor Roylott had used as a weapon. The method was delivered through a ventilator that connected to her room, allowing the snake to attack her while she was in bed [5].
+question=> In A Scandal in Bohemia, who is Irene Adler and what does the King of Bohemia want from her?
+response=> Irene Adler is a celebrated American opera contralto who had a brief attachment with the King of Bohemia when he was Crown Prince. The King wants a photograph that shows him and Irene Adler together, which she possesses. He is concerned that she will use this photograph to threaten his upcoming marriage to Clotilde Lothman von Saxe-Meiningen, as she has threatened to send it to the bride's family out of revenge for being cast aside [1][2].
+question=> What machine was Victor Hatherley asked to inspect, and what was it secretly being used for?
+response=> Victor Hatherley was asked to inspect a hydraulic press, which was secretly being used to stamp counterfeit half-crowns from a base alloy of nickel and tin [4].
+question=> Who is Professor Moriarty, and how does he meet his end?
+response=> I don't know based on the provided documents.
+question=> Who is Dr.Watson?
+response=> Dr. Watson is a character who, by the summer of 1889, is married and back in private practice. He is called to attend a patient at Paddington Station, where he encounters a young gentleman with a severed thumb [1].
+question=> Who was John Clay and where and with which different name he was working ?
+response=> John Clay is recognized by Holmes as the grandson of a royal duke and one of the most cunning thieves in London. He was working under the name Spaulding in the context of the Red-Headed League [1].
+
+  id                              type              hit   abstained  grounded  ok
+  --------------------------------------------------------------------------
+  q1_red_headed_league_assistant  answerable         ✓          ✗          ✓         ✓
+  q2_speckled_band_weapon         answerable         ✓          ✗          ✓         ✓
+  q3_scandal_bohemia_adler        answerable         ✓          ✗          ✓         ✓
+  q4_engineers_thumb_press        answerable         ✓          ✗          ✓         ✓
+  abstain_moriarty                should_abstain     ✗          ✓          ✗         ✓
+  abstain_out_of_domain           should_abstain     ✗          ✓          ✗         ✓
+  q5_YOUR_TOPIC                   answerable         ✓          ✗          ✗         ✓
+  q6_YOUR_TOPIC                   answerable         ✓          ✗          ✓         ✓
+  q7_YOUR_ABSTAIN                 should_abstain     ✗          ✓          ✗         ✓
+  --------------------------------------------------------------------------
+
+  Retrieval hit rate    : 1.0   (6 answerable questions)
+  Grounded & cited rate : 0.8333333333333334   (KPI: grounded response rate)
+  Abstention accuracy   : 1.0   (3 should-abstain questions)
+  Hallucination rate    : 0.0   (KPI: hallucination rate)
+
